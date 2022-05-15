@@ -1,0 +1,9 @@
+domain: cr.rodrigomuller.dev
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: cr-operator
+repo: github.com/r-hmuller/cr-operator
+version: "3"
